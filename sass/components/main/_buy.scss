@@ -1,0 +1,49 @@
+.buy {
+    background: url(../icons/footer.png) no-repeat center / cover;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    .buy-content {
+        &__title {
+            color: #FFF;
+            font-family: 'Montserrat';
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 57px; /* 142.5% */
+            letter-spacing: 0.2px;
+        }
+        &__item {
+            color: #FFF;
+            font-family: 'Montserrat';
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 38px; /* 158.333% */
+            letter-spacing: 0.2px;
+        }
+        .footer-buttons {
+            &__item {
+                color: #FFF;
+                font-family: 'Montserrat';
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 36px; /* 150% */
+                letter-spacing: 0.1px;
+                padding: 15px 30px;
+                border-radius: 10px;
+                border: none;
+                background: none;
+            }
+            &__item:nth-child(1) {
+                background: #FA4A0C;
+            }
+            &__item:nth-child(2) {
+                border: 1px solid #FFF;
+            }
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+}

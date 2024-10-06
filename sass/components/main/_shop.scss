@@ -1,0 +1,92 @@
+.description {
+    padding-top: 55px;
+    padding-bottom: 150px;
+    .description-content {
+        &__title {
+            color: #000;
+            font-family: 'Poppins';
+            font-size: 44px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 36px; /* 81.818% */
+            letter-spacing: 0.1px;
+        }
+        .profile {
+            display: flex;
+            gap: 290px;
+            padding-top: 70px;
+            .profile-content {
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                &__podtitle {
+                    color: #FA4A0C;
+                    font-family: 'Montserrat';
+                    font-size: 24px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 36px; /* 150% */
+                    letter-spacing: 0.1px;
+                }
+                &__title {
+                    color: #252B42;
+                    font-family: 'Montserrat';
+                    font-size: 40px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 57px; /* 142.5% */
+                    letter-spacing: 0.2px;
+                }
+                &__item {
+                    color: #737373;
+                    font-family: 'Montserrat';
+                    font-size: 24px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 38px; /* 158.333% */
+                    letter-spacing: 0.2px;
+                }
+            }
+            
+        }
+        .shop {
+            padding-top: 70px;
+            display: flex;
+            gap: 290px;
+            .shop-content {
+                .shop-content {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 15px;
+                    &__podtitle {
+                        color: #FA4A0C;
+                        font-family: 'Montserrat';
+                        font-size: 24px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 36px; /* 150% */
+                        letter-spacing: 0.1px;
+                    }
+                    &__title {
+                        color: #252B42;
+                        font-family: 'Montserrat';
+                        font-size: 40px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 57px; /* 142.5% */
+                        letter-spacing: 0.2px;
+                    }
+                    &__item {
+                        color: #737373;
+                        font-family: 'Montserrat';
+                        font-size: 24px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 38px; /* 158.333% */
+                        letter-spacing: 0.2px;
+                    }
+            }
+        }
+    }
+}
+}

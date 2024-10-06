@@ -1,0 +1,60 @@
+.hero {
+    background: url(../icons/main.png) no-repeat center / cover;
+    padding-top: 80px;
+    padding-bottom: 160px;
+    .hero-content {
+        &__podtitle {
+            color: #F6F6F6;
+            font-family: 'Montserrat';
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 36px; /* 150% */
+            letter-spacing: 0.1px;
+        }
+        &__title {
+            width: 800px;
+            color: #FFF;
+            font-family: Poppins;
+            font-size: 58px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 80px; /* 137.931% */
+            letter-spacing: 0.2px;
+            text-align: center;
+        }
+        &__description {
+            color: #F6F6F6;
+            font-family: 'Montserrat';
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 38px; /* 158.333% */
+            letter-spacing: 0.2px;
+        }
+        .buttons {
+            &__item {
+                color: #FFF;
+                font-family: 'Montserrat';
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 36px; /* 150% */
+                letter-spacing: 0.1px;
+                padding: 15px 70px;
+                border-radius: 30px;
+                border: none;
+                background: none;
+            }
+            &__item:nth-child(1) {
+                background: #FA4A0C;
+            }
+            &__item:nth-child(2) {
+                border: 1px solid #FFF;
+            }
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+}
